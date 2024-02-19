@@ -1,0 +1,10 @@
+[Unit]
+Description=The timer that checks for carbon grid intensity every hour
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=1min
+Unit=eco_cpu.service
+
+[Install]
+WantedBy=timers.target

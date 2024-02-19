@@ -1,0 +1,9 @@
+[Unit]
+Description=Checks for the carbon grid intensity and sets the cpu scaling
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/eco-cpu/start-eco-cpu.sh
+
+[Install]
+WantedBy=multi-user.target
