@@ -56,7 +56,7 @@ if __name__ == '__main__':
 
         latitude, longitude = get_location()
         ci = get_carbon_intensity(latitude, longitude)
-        if ci > 200:
+        if ci > 280:
             notify(f"Setting to low power mode. The grid is dirrrrrrrty {ci}")
             subprocess.run(['sudo', 'pmset', '-a', 'lowpowermode', '1'], check=True)
         else:

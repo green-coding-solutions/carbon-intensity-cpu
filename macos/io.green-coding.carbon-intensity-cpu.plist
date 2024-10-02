@@ -10,7 +10,7 @@
         <string>__PWD__/carbon-intensity-cpu.py</string>
     </array>
     <key>StartInterval</key>
-    <integer>60</integer>
+    <integer>900</integer>
     <key>RunAtLoad</key>
     <true/>
     <key>StandardOutPath</key>
